@@ -1,0 +1,78 @@
+.profile-card {
+    max-width: 100%; /* تحديد الحد الأقصى للعرض */
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow:8px 8px 12px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .profile-content {
+    display: flex;
+    align-items: flex-start; /* محاذاة العناصر من الأعلى */
+    justify-content: flex-start; /* محاذاة العناصر إلى اليسار */
+  }
+  
+  .profile-image-container {
+    display: flex;
+    flex-direction: column; /* ترتيب العناصر عموديًا */
+    align-items: center; /* محاذاة العناصر في المنتصف */
+    justify-content: flex-start; /* محاذاة العناصر إلى الأعلى */
+    text-align: center;
+  }
+  
+  .profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* تحويل الصورة إلى دائرة */
+    object-fit: cover; /* ملء الإطار مع اقتصاص الصورة */
+    object-position: top; /* التركيز على الجزء العلوي من الصورة */
+    border: 3px solid #007bff; /* إطار للصورة */
+  }
+  
+  .profile-text {
+    margin-top: 20px; /* إضافة مسافة بين الصورة والنص */
+  }
+  
+  .profile-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .profile-email {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .btn-custom {
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 25px; /* حواف دائرية للزر */
+    background: linear-gradient(135deg, #007bff, #00bcd4); /* تدرج لوني جذاب */
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease; /* تأثير التغيير عند التفاعل */
+    margin-top: 10px;
+  }
+  
+  .btn-custom:hover {
+    background: linear-gradient(135deg, #00bcd4, #007bff); /* تغيير التدرج اللوني عند التفاعل */
+    transform: translateY(-3px); /* رفع الزر قليلاً عند التفاعل */
+  }
+  
+  .btn-custom:focus {
+    outline: none; /* إزالة التركيز الافتراضي */
+  }
+  
+  .btn-custom:active {
+    transform: translateY(1px); /* تحريك الزر للأسفل عند الضغط عليه */
+  }
+  /* Icon */
+  .icon-container .icon{
+    font-size: 50px;
+    width: 15rem;
+    margin-top: -150px;
+    color: blue;
+  }
